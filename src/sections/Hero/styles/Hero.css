@@ -1,0 +1,82 @@
+/* Hero section container */
+.hero {
+    position: relative;
+    height: 100vh;
+    background-image: url('https://cdn.prod.website-files.com/663d1907e337de23e83c30b2/66dd40e66fc2046c11bdd538_image%20(36).png'); /* Dummy image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    /* position: fixed; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: rgba(0, 0, 0, 0.4); /* Semi-transparent background */
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .auth-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .login-btn, .signup-btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+  }
+  
+  .login-btn {
+    background-color: transparent;
+    border: 2px solid white;
+  }
+  
+  .signup-btn {
+    background-color: #2f4550;
+    border: none;
+  }
+  
+  .hero-content {
+    margin-top: auto;
+    padding: 0 50px;
+  }
+  
+  .hero-content h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #FFF;
+  }
+  
+  .hero-subtext {
+    font-size: 18px;
+    background: rgba(0, 0, 0, 0.6); /* Background behind the text */
+    padding: 10px;
+  }
+  

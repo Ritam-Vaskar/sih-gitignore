@@ -1,0 +1,99 @@
+.experience-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .experience-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .experience-image {
+    max-width: 500px;
+    border-radius: 20px;
+  }
+  
+  .experience-right {
+    flex: 1;
+  }
+  
+  .experience-right h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .experience-right h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 20px 0;
+    color: #555;
+  }
+  
+  .experience-right p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    color: #666;
+  }
+  
+  .experience-stats {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 40px;
+  }
+  
+  .stat {
+    text-align: center;
+  }
+  
+  .stat h5 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #2c2c2c;
+  }
+  
+  .stat p {
+    font-size: 1rem;
+    color: #888;
+  }
+  
+  .experience-rating {
+    text-align: center;
+  }
+  
+  .experience-rating h4 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .rating-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .rating-item {
+    font-size: 2rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .rating-item:hover {
+    transform: scale(1.1);
+  }
+  
+  .rating-item.selected {
+    transform: scale(1.2);
+    color: #ff6b6b;
+  }
+  
+  .rating-emoji {
+    display: inline-block;
+  }
+  

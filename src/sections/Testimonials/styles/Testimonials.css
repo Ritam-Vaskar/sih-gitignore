@@ -1,0 +1,44 @@
+.testimonial-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .testimonial-container h2 {
+    font-size: 40px;
+    color: black;
+  }
+  
+  .testimonial-container h3 {
+    font-size: 30px;
+    color: gray;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px #ccc;
+  }
+  
+  .author {
+    font-weight: bold;
+    color: black;
+  }
+  
+  .testimonial-container .rating {
+    color: orange;
+    font-size: 24px;
+  }
+  
+  .action button {
+    background-color: #2f4550;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
