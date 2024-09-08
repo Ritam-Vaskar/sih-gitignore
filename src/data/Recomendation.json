@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "name": "Magnetic Hills",
+      "location": "Leh, Ladakh",
+      "rating": 4.8,
+      "reviews": "132k Rev",
+      "image": "https://i.natgeofe.com/n/a95542a2-c8e3-4817-91a9-ba9d89cec383/00000161-7323-d279-ad6f-f7ff7a2a0000_square.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Taj Mahal",
+      "location": "Agra, Uttar Pradesh",
+      "rating": 4.9,
+      "reviews": "196k Rev",
+      "image": "https://i.natgeofe.com/n/a95542a2-c8e3-4817-91a9-ba9d89cec383/00000161-7323-d279-ad6f-f7ff7a2a0000_square.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Chittorgarh Fort",
+      "location": "Chittorgarh, Rajasthan",
+      "rating": 4.6,
+      "reviews": "150k Rev",
+      "image": "https://i.natgeofe.com/n/a95542a2-c8e3-4817-91a9-ba9d89cec383/00000161-7323-d279-ad6f-f7ff7a2a0000_square.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Munnar",
+      "location": "Munnar, Kerala",
+      "rating": 4.6,
+      "reviews": "147k Rev",
+      "image": "https://i.natgeofe.com/n/a95542a2-c8e3-4817-91a9-ba9d89cec383/00000161-7323-d279-ad6f-f7ff7a2a0000_square.jpg"
+    }
+  ]
+  

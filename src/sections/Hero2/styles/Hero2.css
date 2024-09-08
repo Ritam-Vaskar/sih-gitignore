@@ -1,0 +1,97 @@
+/* General styling for the section */
+.service-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #f5f7fa;
+  }
+  
+  .search-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #d6e0e8;
+    border-radius: 10px;
+    width: 60%;
+    margin-bottom: 40px;
+  }
+  
+  .search-location, .search-date, .search-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .search-location .icon, .search-date .icon, .search-button .icon {
+    font-size: 1.5em;
+  }
+  
+  .search-location span, .search-date span {
+    font-size: 1.1em;
+  }
+  
+  .service-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 5%;
+  }
+  
+  .service-text {
+    width: 40%;
+    text-align: left;
+  }
+  
+  .service-text h4 {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .service-text h2 {
+    font-size: 2.5em;
+    margin: 10px 0;
+    color: #2d3748;
+  }
+  
+  .service-text p {
+    font-size: 1.2em;
+    color: #7a7a7a;
+  }
+  
+  .service-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 50%;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-icon {
+    font-size: 2.5em;
+    color: #4caf50;
+    margin-bottom: 10px;
+  }
+  
+  .card h5 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 1em;
+    color: #7a7a7a;
+  }
+  

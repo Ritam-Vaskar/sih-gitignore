@@ -1,0 +1,53 @@
+.Recomendation-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+ 
+  
+  .cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 20%;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .rating {
+    color: #ffa500; /* Orange for ratings */
+    font-weight: bold;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  h2{
+    color: gray;
+    margin-top: 10px;
+  }
+
+}
+  
+  /* Ensure responsiveness */
+  @media (max-width: 768px) {
+    .cards {
+      flex-direction: column;
+    }
+  
+    .card {
+      width: 80%;
+      margin: 10px auto;
+    }
+  }
+  
